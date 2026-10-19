@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio showcasing education, technical skills, projects, and contact information.">
+    <title>Tazain | Personal Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top portfolio-nav">
+        <div class="container">
+            <a class="navbar-brand brand-mark" href="#home" aria-label="Go to home">t<span>.</span></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#mainNav" aria-controls="mainNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item ms-lg-3">
+                        <button class="theme-toggle" id="themeToggle" type="button"
+                                aria-label="Switch to dark mode" title="Toggle light/dark theme">
+                            <span id="themeIcon" aria-hidden="true">☾</span>
+                            <span class="theme-toggle-label">Dark mode</span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Home -->
+        <section id="home" class="hero section-anchor">
+            <div class="hero-decoration decoration-one" aria-hidden="true"></div>
+            <div class="hero-decoration decoration-two" aria-hidden="true"></div>
+            <div class="container hero-grid">
+                <div class="hero-copy reveal">
+                    <p class="eyebrow"><span class="eyebrow-dot"></span> HELLO THERE, WELCOME TO MY CORNER</p>
+                    <h1>I'm <br> <span class="gradient-text">TAZAIN NAZ</span></h1>
+                    <p class="hero-intro">
+                         a computer science student who loves turning
+                        curious ideas into thoughtful digital experiences.
+                    </p>
+                    <div class="typing-line">
+                        <span>I'm exploring </span><span id="typingText" class="typing-text">web development</span><span class="typing-cursor" aria-hidden="true">|</span>
+                    </div>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary-soft" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+                        <a class="btn btn-outline-soft" href="#contact">Say hello</a>
+                    </div>
+                    <div class="hero-note"><span aria-hidden="true">✦</span> Learning, building, and blooming — one project at a time.</div>
+                </div>
+
+                <div class="hero-art reveal reveal-delay-2">
+                    <div class="portrait-frame">
+                        <div class="portrait-glow"></div>
+         
+                             <img src="profile.jpg"
+                                 alt="My profile photo"
+                                 class="portrait-img">
+                        <div class="floating-note note-top"><span>✿</span> curious mind</div>
+                        <div class="floating-note note-bottom"><span>♡</span> currently growing</div>
+                    </div>
+                    <div class="orbit orbit-one" aria-hidden="true"></div>
+                    <div class="orbit orbit-two" aria-hidden="true"></div>
+                    <span class="sparkle sparkle-one" aria-hidden="true">✦</span>
+                    <span class="sparkle sparkle-two" aria-hidden="true">✧</span>
+                </div>
+            </div>
+            <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+        </section>
+
+        <!-- About Me -->
+        <section id="about" class="section section-anchor">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">A LITTLE ABOUT ME</p>
+                    <h2>More than a <span class="gradient-text">student ID.</span></h2>
+                    <p class="section-lead">A curious learner with a soft spot for clean code, creative ideas, and meaningful problem-solving.</p>
+                </div>
+                <div class="about-grid">
+                    <div class="about-card glass-card reveal">
+                        <span class="card-kicker">01 / WHO I AM</span>
+                        <h3>Curiosity is my favourite tool.</h3>
+                        <p>I'm a computer science student exploring software development, data structures, algorithms, and modern web technologies. I enjoy learning by building projects and improving them one small step at a time.</p>
+                    </div>
+                    <div class="about-card objective-card reveal reveal-delay-1">
+                        <span class="card-kicker">02 / MY DIRECTION</span>
+                        <h3>My career objective</h3>
+                        <p>To grow into a skilled software engineer, contribute to real-world products, collaborate with thoughtful teams, and keep creating technology that feels useful and human.</p>
+                        <div class="tiny-stats">
+                            <div><strong>Learn</strong><span>with intention</span></div>
+                            <div><strong>Build</strong><span>with purpose</span></div>
+                            <div><strong>Grow</strong><span>every day</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section id="education" class="section section-tinted section-anchor">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">THE LEARNING CHAPTERS</p>
+                    <h2>My <span class="gradient-text">education.</span></h2>
+                    <p class="section-lead">The foundations I'm building, one chapter at a time.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-4 reveal">
+                        <article class="education-card h-100">
+                            <div class="education-icon" aria-hidden="true">✿</div>
+                            <span class="card-kicker">CURRENTLY</span>
+                            <h3>Integrated M.Tech in CSE</h3>
+                            <p class="institution">VIT-AP University</p>
+                            <p>Studying computer science, programming, algorithms, and software systems.</p>
+                            <span class="mini-pill">In progress</span>
+                        </article>
+                    </div>
+                    <div class="col-md-4 reveal reveal-delay-1">
+                        <article class="education-card h-100">
+                            <div class="education-icon peach" aria-hidden="true">✧</div>
+                            <span class="card-kicker">PRE-UNIVERSITY</span>
+                            <h3>Intermediate / Class XII</h3>
+                            <p class="institution">Narayana jr college</p>
+                            <p>Completed my 12th in the MPC Stream under BIEAP board in 2024 graduating with a score of 97%.</p>
+                        </article>
+                    </div>
+                    <div class="col-md-4 reveal reveal-delay-2">
+                        <article class="education-card h-100">
+                            <div class="education-icon yellow" aria-hidden="true">♡</div>
+                            <span class="card-kicker">FOUNDATIONS</span>
+                            <h3>School Education</h3>
+                            <p class="institution">Bhashyam EM High School</p>
+                            <p>Completed School Education at Bhashyam EM High School, achieving strong foundational eductaion 
+                                with 95.84% 
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section section-anchor">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">TOOLS IN MY TOOLBOX</p>
+                    <h2>Skills I'm <span class="gradient-text">growing.</span></h2>
+                    <p class="section-lead">A snapshot of the technologies I practise and use in my projects.</p>
+                </div>
+                <div class="skills-panel glass-card reveal">
+                    <div class="skill-item">
+                        <div class="skill-label"><span>Java</span><span>Learning level</span></div>
+                        <div class="skill-track"><div class="skill-fill fill-lavender" style="--skill-level: 78%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-label"><span>HTML &amp; CSS</span><span>Learning level</span></div>
+                        <div class="skill-track"><div class="skill-fill fill-pink" style="--skill-level: 80%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-label"><span>JavaScript</span><span>Learning level</span></div>
+                        <div class="skill-track"><div class="skill-fill fill-peach" style="--skill-level: 60%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-label"><span>SQL &amp; Databases</span><span>Learning level</span></div>
+                        <div class="skill-track"><div class="skill-fill fill-yellow" style="--skill-level: 85%"></div></div>
+                    </div>
+                    <div class="skill-badges">
+                        <span>Problem Solving</span><span>Bootstrap</span><span>Git &amp; GitHub</span><span>Teamwork</span>
+                    </div>
+                    
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section section-tinted section-anchor">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">THINGS I'VE BEEN MAKING</p>
+                    <h2>Selected <span class="gradient-text">projects.</span></h2>
+                    <p class="section-lead">Small ideas, real practice, and plenty of room to keep improving.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4 reveal">
+                        <article class="project-card h-100">
+                            <div class="project-visual visual-lavender">
+                                <img src="https://placehold.co/600x360/e6defa/65558e?text=SmartCart"
+                                     alt="SmartCart project preview">
+                                <span class="project-number">01</span>
+                            </div>
+                            <div class="project-content">
+                                <p class="project-type">JAVA · DATABASE</p>
+                                <h3>SmartCart</h3>
+                                <p>A shopping-system demo exploring product management and database integration with Java and MongoDB.</p>
+                                <div class="project-tags"><span>Java</span><span>MongoDB</span><span>Maven</span></div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4 reveal reveal-delay-1">
+                        <article class="project-card h-100">
+                            <div class="project-visual visual-peach">
+                                <img src="https://placehold.co/600x360/f9e0d5/986c63?text=E-Commerce"
+                                     alt="E-commerce website preview">
+                                <span class="project-number">02</span>
+                            </div>
+                            <div class="project-content">
+                                <p class="project-type">WEB DEVELOPMENT</p>
+                                <h3>E-Commerce Website</h3>
+                                <p>A responsive shopping interface with product listings, a cart, login pages, and checkout flow.</p>
+                                <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4 reveal reveal-delay-2">
+                        <article class="project-card h-100">
+                            <div class="project-visual visual-pink">
+                                <img src="https://placehold.co/600x360/f5dce9/8f5f7a?text=Portfolio"
+                                     alt="Personal portfolio website preview">
+                                <span class="project-number">03</span>
+                            </div>
+                            <div class="project-content">
+                                <p class="project-type">FRONTEND · UI DESIGN</p>
+                                <h3>Personal Portfolio</h3>
+                                <p>A responsive portfolio presenting education, skills, projects, and a validated contact form.</p>
+                                <div class="project-tags"><span>Bootstrap</span><span>CSS</span><span>JavaScript</span></div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section section-anchor">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">LET'S MAKE SOMETHING GOOD</p>
+                    <h2>Have a little <span class="gradient-text">hello?</span></h2>
+                    <p class="section-lead">Have a project idea, opportunity, or just want to connect? Send a note.</p>
+                </div>
+                <div class="contact-layout">
+                    <div class="contact-aside reveal">
+                        <div class="contact-sticker" aria-hidden="true">♡</div>
+                        <h3>My inbox is open.</h3>
+                        <p>I'm always happy to connect with fellow learners, developers, and creative minds.</p>
+                        <div class="contact-detail"><span aria-hidden="true">✉</span> tazain.24mic7052@vitapstudent.ac.in</div>
+                    </div>
+
+                    <form id="contactForm" class="contact-form glass-card reveal reveal-delay-1" novalidate>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label for="name" class="form-label">Your name</label>
+                                <input type="text" id="name" name="name" class="form-control" placeholder="e.g. Alex" autocomplete="name" required>
+                                <div class="field-error" id="nameError"></div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" id="email" name="email" class="form-control" placeholder="you@example.com" autocomplete="email" required>
+                                <div class="field-error" id="emailError"></div>
+                            </div>
+                            <div class="col-12">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" id="subject" name="subject" class="form-control" placeholder="What's on your mind?" required>
+                                <div class="field-error" id="subjectError"></div>
+                            </div>
+                            <div class="col-12">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea id="message" name="message" class="form-control" rows="4" placeholder="Write your message here..." required></textarea>
+                                <div class="field-error" id="messageError"></div>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary-soft w-100">Send a little note <span aria-hidden="true">↗</span></button>
+                                <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <a class="footer-brand" href="#home">t<span>.</span></a>
+            <p>Made with care, curiosity &amp; a little bit of lavender. <span aria-hidden="true">♡</span></p>
+            <p class="copyright">© <span id="year"></span> Tazain Naz</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
